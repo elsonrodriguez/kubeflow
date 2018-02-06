@@ -70,7 +70,7 @@ ks init ${APP_NAME}
 cd ${APP_NAME}
 
 # Install Kubeflow components
-ks registry add kubeflow github.com/kubeflow/kubeflow/tree/master/kubeflow
+ks registry add kubeflow github.com/kubeflow/kubeflow/tree/v0.001/kubeflow
 ks pkg install kubeflow/core
 ks pkg install kubeflow/tf-serving
 ks pkg install kubeflow/tf-job
